@@ -7,7 +7,7 @@ require '../phone'
 class PhoneTest < Minitest::Test
 
   def setup
-    @pix = Phone.new("Pixel", "Google", "50")
+    @pix = Phone.new("Pixel", "Google", 50)
   end
 
   def test_to_s_no_accessories

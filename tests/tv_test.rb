@@ -7,7 +7,7 @@ require '../tv'
 class TVTest < Minitest::Test
 
   def setup
-    @tv = TV.new("QLED Smart", "Samsung", "50")
+    @tv = TV.new("QLED Smart", "Samsung", 50)
   end
 
   def test_to_s
