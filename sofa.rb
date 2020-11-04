@@ -20,11 +20,3 @@ class Sofa < Furniture
   end
 
 end
-
-# Quick tests
-joe = Sofa.new("JOE", "pink", "wool", "loveseat")
-joe.add_accessory("cushions")
-joe.add_accessory("throw blanket")
-joe.add_accessory("ottoman")
-joe.remove_accessory("cushions")
-joe.to_s
