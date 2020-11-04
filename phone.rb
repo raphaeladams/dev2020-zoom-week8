@@ -20,11 +20,3 @@ class Phone < Electronics
   end
 
 end
-
-# Quick tests
-pix = Phone.new("Pixel", "Google", "50")
-pix.add_accessory("case")
-pix.add_accessory("earbuds")
-pix.add_accessory("screen protector")
-pix.remove_accessory("case")
-pix.to_s

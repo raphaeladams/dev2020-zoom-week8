@@ -9,8 +9,4 @@ class Furniture
     @material = material
   end
 
-  def to_s
-    puts "A #{ @colour } #{ @model } made of #{ @material }"
-  end
-
 end

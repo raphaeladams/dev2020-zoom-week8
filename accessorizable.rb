@@ -7,7 +7,7 @@ module Accessorizable
 
   def add_accessory(accessory)
     @accessories ||= []
-    @accessories << accessory
+    @accessories << accessory unless @accessories.include?(accessory)
   end
 
   def remove_accessory(accessory)
