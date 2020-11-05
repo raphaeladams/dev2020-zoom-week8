@@ -48,9 +48,9 @@ class Sausage
 end
 
 
-silver_platter = [Apple.new, Banana.new, Cheese.new, Sausage.new]
+silver_platter = [Fruit.new, Apple.new, Banana.new, Cheese.new, Sausage.new]
 
 silver_platter.each do |food|
   food.to_s
-  food.eat
+  food.eat if food.respond_to?(:eat)
 end
