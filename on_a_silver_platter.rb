@@ -46,3 +46,11 @@ class Sausage
     puts "Eating sausage"
   end
 end
+
+
+silver_platter = [Fruit.new, Apple.new, Banana.new, Cheese.new, Sausage.new]
+
+silver_platter.each do |food|
+  food.to_s
+  food.eat
+end
